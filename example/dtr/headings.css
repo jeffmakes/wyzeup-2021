@@ -1,0 +1,63 @@
+/* DTR
+especify the font-size as pt.
+*/
+
+h1{
+	font-family: OzHandicraft,Tahoma, sans;
+	font-size:10pt;
+	color:#FF0000;
+	font-weight:bold;
+	/*background-color:#fff;*/
+	
+	
+}
+h1 a{
+	color:#2977c7;
+	text-decoration:none;
+}
+h1 a:hover{
+	color:#000;
+	background-color:#feffb5;
+	text-decoration:none;
+}
+.content_center_home{
+	float:left;
+	width:450px;
+	height:370px;
+	padding:130px 0px 0px 0px;
+	text-align:right;
+}
+
+
+/* Generally you don't need to change anything below */
+.dtr{
+overflow:hidden;
+margin:0;
+height:1%; /* tsk tsk */
+}
+.dtr a{
+display:block;
+float:left;
+overflow:hidden;
+cursor: pointer
+}
+.dtr a:hover span{
+background-position:left bottom;
+}
+.dtr span{
+display:block;
+float:left;
+overflow:hidden;
+text-indent:-1000px;
+background-repeat:no-repeat;
+background-position:left top;
+}
+
+@media print{
+.dtr span{
+background-image:none;
+display:inline;
+float:none
+}
+}
+

@@ -1,0 +1,266 @@
+/*LINKS
+-------------------------------------------*/
+a {
+	text-decoration: none;
+	color: #ff6600;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.footer a {
+	COLOR: #797D85;
+	text-decoration: none;
+}
+.footer a:hover {COLOR: #67B1F0;
+	text-decoration: none;
+}
+.class3 a {
+	text-decoration: none;
+	COLOR: #666666;
+}
+.class3 a:hover {COLOR: #FF0000;
+}
+.class4 a {
+	text-decoration: none;
+	COLOR: #464646;
+}
+.class4 a:hover {COLOR: #FF0000;
+}
+
+
+.submenu a{
+	background-image: url(../wyzeup_images/dot_arrow_on.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464646;
+	display: block;
+	text-decoration: none;
+	padding-left: 17px;
+	background-attachment: scroll;
+	height: 11px;
+}
+.submenu a:hover{
+	background-image: url(../wyzeup_images/dot_arrow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF6600;
+	display: block;
+	text-decoration: none;
+	padding-left: 17px;
+	height: 11px;
+	background-attachment: scroll;
+}
+
+/*MAIN TEXT
+---------------------------------------------*/
+.h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #5B709F;
+	text-decoration: none;
+	line-height: 20px;
+	font-weight: bold;
+}
+.h2 {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5B709F;
+	text-decoration: none;
+	line-height: 19px;
+	font-weight: bold;
+	}
+.h3 {	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003399;
+	text-decoration: none;
+	line-height: 19px;
+	font-weight: normal;}
+.h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 18px;
+}
+.h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #01819A;
+	text-decoration: none;
+	line-height: 18px;
+}
+.paragraph {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #5B709F;
+	text-decoration: none;
+	text-align: none;
+}
+.paragraphbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	color: #666666;
+	line-height: 19px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.paragraph1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+	text-decoration: none;
+	line-height: 14px;
+	text-align: justify;
+}
+.paragraph2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #666666;
+	line-height: 19px;
+	text-decoration: none;
+}
+.paragraphred {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	color: #ff0000;
+	line-height: 19px;
+	text-decoration: none;
+}
+
+/*BODY
+-------------------------------------------*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	SCROLLBAR-FACE-COLOR: #EEEBE6;
+	SCROLLBAR-HIGHLIGHT-COLOR: #F2F2F2;
+	SCROLLBAR-SHADOW-COLOR: #E0E0E0;
+	SCROLLBAR-3DLIGHT-COLOR: #F2F2F2;
+	SCROLLBAR-ARROW-COLOR: #38575C;
+	SCROLLBAR-TRACK-COLOR: #E0E0E0;
+	SCROLLBAR-DARKSHADOW-COLOR: #999999;
+}
+.btbg {
+	background-attachment: scroll;
+	background-image: url(../controlpanel_images/bt_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	height: 7px;
+}
+
+/*FORM ELEMENTS
+------------------------------------*/
+
+.txtbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	clear: none;
+	float: none;
+	font-size: 12px;
+}
+.submitbu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	border: 1px #999999;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-attachment: scroll;
+	background-image: url(../controlpanel_images/submit_bu.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20px;
+	width: 80px;
+	cursor: hand;
+}
+.menu {
+	background-image: url(../controlpanel_images/background_menu.jpg);
+	background-repeat: repeat-x;
+	height: 31px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 21px;
+}
+.background_footer {
+	background-image: url(../controlpanel_images/background_footer.jpg);
+	background-repeat: repeat-x;
+	height: 37px;
+}
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 18px;
+	height: 21px;
+}
+
+/*------------------------------------------------------------------------
+TAB MENUES ADDED By TARUN
+*/
+.container {
+        width: 97%;
+        padding: 3px;
+        margin: 3px 0 0px 0;
+        border: 0px solid #ccc;
+        background: #ffffff;
+}
+
+/* circle */
+
+#navCircle {
+        margin: 0;
+        padding: 0 0 20px 10px;
+        border-bottom: 1px solid #9FB1BC;
+}
+
+#navCircle li {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+}
+
+#navCircle a:link, #navCircle a:visited {
+		color: #333333;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 21px;
+        float: left;
+        /*font-size: 10px;*/
+        /*line-height: 14px;*/
+        font-weight: bold;
+        padding: 0 12px 6px 12px;
+        text-decoration: none;
+        /*color: #708491;*/
+}
+
+#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
+        padding-bottom: 6px;
+        color: #ff6600;
+		background: url(../controlpanel_images/circle.gif) no-repeat bottom center;
+}
+.mandatory {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	color: #FF0000;
+	text-decoration: none;
+	font-weight: bold;
+}

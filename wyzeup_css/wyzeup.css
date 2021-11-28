@@ -1,0 +1,1086 @@
+/* CSS Document */
+/* 	Last updated on December 27, 2006
+	Created & Updated by JA
+*/
+
+/* 	===================================================================================================
+												Body
+===================================================================================================  */
+
+BODY
+	{
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-family: arial, verdana, lucida, helvetica, sans-serif;
+	background-image: url(../wyzeup_images/theme-bg-new.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color:#EBF9FA;
+	}
+#main 	
+	{
+	margin: 0px;
+	padding: 0px;
+	width: 780px;
+	}
+#header 	
+	{
+	margin: 0px auto;
+	padding: 0px;
+	width: 780px;
+	float: left;
+	}	
+#headerleft {
+	margin: 0px auto;
+	padding: 0px 6px 0px 38px;
+	width: 190px;
+	color: #000000;
+	float: left;
+	}
+#headerright {
+	margin: 0px auto;
+	padding: 17px 0px 0px 0px;
+	width: 528px;
+	float: left;
+	text-align: left;
+	}
+#theme 	
+	{
+	margin: 0px auto 0px;
+	padding: 0px;
+	width: 100%;
+	background-image: url(../wyzeup_images/theme-bg.jpg);
+	background-repeat: repeat-x;
+	height: 189px;
+	background-attachment: scroll;
+	background-position: top;
+	background-color:#FFFFFF;
+	position: relative;
+	top:0px;
+	float:left
+
+	}
+#themeleft {
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	width: 230px;
+	height:189px;
+	float: left;
+	background-image: url(../wyzeup_images/theme-left-bg.jpg);
+	background-repeat: no-repeat;
+}
+
+#themeleftloginbox {
+	margin: 0px auto;
+	padding: 50px 0px 0px 75px;
+	width: 155px;
+	height:139px;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 70%;
+	color: #6F6C64;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+#themeright {
+	margin: 0px auto;
+	padding: 0px;
+	float: left;
+	background-image: url(../wyzeup_images/theme-img-bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left;
+	}
+#content 	
+	{
+	margin: 0px auto;
+	padding: 0px;
+	width: 780px;
+	float: left;
+	background:#FFFFFF;
+	}	
+
+
+
+#topimage{
+	width:737px;
+	height:48px;
+
+
+}	
+
+#bottomimage{
+	float:left;
+	background: #FFFFFF url(../wyzeup_images/img-banner-bottom.jpg) no-repeat;
+	width:737px;
+	height:18px;
+	padding: 0px 0px 0px 43px;
+}	
+
+
+#contentleft {
+	margin: 0px;
+	padding: 0px 0px 0px 41px;
+	width: 189px;
+	float: left;
+	height:300px;
+	}
+
+#topcontent{
+	margin: 0px;
+	padding: 6px 0px 10px 43px;
+	width: 737px;
+}
+
+#bottomcontent{
+	float:left;
+	margin: 0px;
+	padding: 0px 0px 0px 43px;
+	width: 737px;
+	background: #FFFFFF url(../wyzeup_images/img-banner-bg.jpg) repeat-y;
+}
+
+#text{
+	width:758px;
+	background:#FFFFFF;
+}
+ul.txtlink4	{
+	list-style:none;
+	margin:0;
+	padding:8px 0px 0px 10px;
+}
+ul.txtlink4 li{
+	width:485px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:70%;
+	color:#6F6C64;
+	line-height:16px;
+	margin:0;
+	padding: 0px 20px 3px 14px;
+	background:url(../wyzeup_images/bullet-green.gif) no-repeat left 6px;
+	}
+
+ul.txtlink	{
+	list-style:none;
+	margin:0;
+	padding:8px 0px 0px 10px;
+}
+
+ul.txtlink li{
+	width:485px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+	color:#28333A;
+	line-height:26px;
+	margin:0;
+	padding: 0px 20px 3px 14px;
+	background:url(../wyzeup_images/bullet-green.gif) no-repeat left 6px;
+}
+
+#contentbox1 {
+	margin: 0px;
+	padding: 0px;
+	width: 189px;
+	float: left;
+	background-image: url(../wyzeup_images/how-it-works-content-bg.jpg);
+	background-repeat: repeat-y;
+}
+
+#contentbox1_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;	color: #CE5EFF;
+	line-height: 18px;
+	text-decoration: none;
+	padding: 10px 9px 5px 10px;
+	width:170px;
+	background:url(../wyzeup_images/how-it-works-top.jpg) top no-repeat;
+	}
+
+#contentbox1 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;	color: #CE5EFF;
+	line-height: 18px;
+	text-decoration: none;
+	padding: 0px 5px 5px 10px;
+	width:174px;
+	}
+
+#pshcebox{
+	margin: 0px;
+	padding: 0px 5px 0px 15px;
+	width: 169px;
+	float: left;
+	/*background-image: url(../wyzeup_images/curriculum-content-bg.jpg);*/
+	background-repeat: repeat-y;
+
+}
+
+#pshcebox p {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #6F6C64;
+	line-height: 16px;
+	text-decoration: none;
+	padding: 0px;
+	}
+
+#applybox{
+	margin: 0px;
+	padding:0px 20px 0px 15px;
+	width: 250px;
+	float: left;
+	color: #81AA30;	
+	/*background-image: url(../wyzeup_images/apply-for-licence-content-bg.jpg);*/
+	background-repeat: repeat-y;
+	background-position:top;
+}
+
+#applybox p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #6F6C64;
+	line-height: 16px;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#contentbox2 {
+	margin: 5px 0px 0px;
+	padding: 0px;
+	width: 189px;
+	float: left;
+/*	background-image: url(../wyzeup_images/curriculum-content-bg.jpg);*/
+	background-repeat: repeat-y;
+	}
+
+#contentbox2 img {
+	padding: 0px 0px 5px 0px;
+}
+
+#contentbox3 {
+	margin: 0px;
+	padding:0px;
+	width: 259px;
+	float: left;
+	color: #81AA30;	
+	background-image: url(../wyzeup_images/apply-for-licence-content-bg.jpg);
+	background-repeat: repeat-y;
+	background-position:top;
+	}	
+
+#contentbox3 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #6F6C64;
+	line-height: 16px;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	}
+
+#support{
+
+	margin: 0px;
+	padding: 0px 2px 0px 2px;
+	width: 259px;
+	color: #C89100;	
+	float: left;
+	/*background-image: url(../wyzeup_images/support-content-bg.jpg);*/
+	background-repeat: repeat-y;
+	background-position:top;
+
+}
+
+#contentbox4 {
+	margin: 0px 0px 0px 2px;
+	padding: 0px;
+	width: 259px;
+	color: #C89100;	
+	float: left;
+	background-image: url(../wyzeup_images/support-content-bg.jpg);
+	background-repeat: repeat-y;
+	background-position:top;
+	}
+
+ul.support
+{
+	margin-left:0;
+	font:70% Arial, Helvetica, sans-serif, Tahoma;
+	padding-top: 0px;
+	padding-left: 15px;	
+	padding-right: 0px;
+	padding-bottom: 0px;
+
+}
+
+ul.support li
+{
+	display:block;
+	background-image: url(../wyzeup_images/dot_1.gif);
+	background-repeat: no-repeat;
+	list-style-type: none;
+	background-attachment: scroll;
+	padding-left: 15px;
+	line-height:20px;
+}
+
+ul.support li a
+{
+	color: #C89100;
+	text-decoration:underline;	
+}
+
+ul.support li a:hover
+{
+	text-decoration:none;	
+	color: #6F6C64;	
+}
+
+
+
+
+ul.sitetxt
+{
+	margin-left:0;
+	font:90% Arial, Helvetica, sans-serif, Tahoma;
+	padding-top: 0px;
+	padding-left: 15px;	
+	padding-right: 0px;
+	padding-bottom: 30px;
+
+}
+
+ul.sitetxt li
+{
+	display:block;
+	background-image: url(../wyzeup_images/bullet-green.gif);
+	background-repeat: no-repeat;
+	list-style-type: none;
+	background-attachment: scroll;
+	background-position: left ;
+	padding-left: 15px;
+	line-height:24px;
+}
+
+ul.sitetxt li a{ color: #C89100; text-decoration:none;	}
+
+ul.sitetxt li a:hover{ text-decoration:none; color: #6F6C64;  }
+
+
+#contentbox2 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #6F6C64;
+	line-height: 16px;
+	text-decoration: none;
+	padding: 5px 5px 5px 10px;
+	}
+
+
+#support p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #C89100;
+	line-height: 18px;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+ul.listitem{
+	margin-left:0;
+	padding-left:0;
+	font:70% Arial, Helvetica, sans-serif, Tahoma;
+	padding-top: 0px;
+	padding-left: 15px;	
+	padding-right: 0px;
+	padding-bottom: 0px;
+	}
+ul.listitem li	{
+	display:block;
+	background-image: url(../wyzeup_images/dot_1.gif);
+	background-repeat: no-repeat;
+	list-style-type: none;
+	background-attachment: scroll;
+	padding-left: 15px;
+	line-height:16px;
+}
+ul.listitem li a{
+	color: #CE5EFF;
+	text-decoration:underline;	
+	}
+ul.listitem li a:hover{
+	text-decoration:none;	
+	color: #6F6C64;	
+	}
+#sp{
+	padding:5px 0px 0px 0px;
+	}	
+#contentrightmain {
+	width: 544px;
+	float: right;
+	}	
+#contentright {
+	margin: 0px auto;
+	padding: 5px 0px 5px 5px;
+	width: 530px;
+	float: right;
+	}
+/*	
+	#contentright
+{
+	width: 510px;
+	text-align: left;
+	float: right;
+	padding: 0px;
+}*/
+.errormessage{
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	color: #FF0000;
+	line-height: 22px;
+	text-decoration: none;
+}
+.errormesage {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	text-align:center;
+	line-height:17px;
+}
+#contentrightbox p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #6F6C64;
+	line-height: 18px;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	}
+#contentcontactbox
+{
+	width: 480px;
+	/*height: 500px;*/
+	padding: 20px 20px 0px 20px;
+	float:left;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/contact-form.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 11px;
+	color: #6F6C64;
+}
+
+#line{
+	float:left;
+	width:489px;
+	height:14px;
+	background:url(../wyzeup_images/img-bottom-line.jpg) no-repeat  top;
+}
+
+#contentloginbox
+{
+	width: 490px;
+	padding:20px;
+	float:left;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/login-form.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 11px;
+	color: #6F6C64;
+}
+#contentapplicationbox
+{
+	width: 430px;
+	padding:20px 20px 20px 20px;
+	float:right;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/application-form.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 11px;
+	color: #6F6C64;
+}
+#contentmyaccountbox
+{
+	width: 430px;
+	padding:20px 20px 20px 20px;
+	float:right;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/my-account.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 11px;
+	color: #6F6C64;
+}
+#contentchangepassbox
+{
+	width: 420px;
+	padding:20px 20px 20px 20px;
+	float:right;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/change-pass-thumb.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 11px;
+	color: #6F6C64;
+}
+#contentapply
+{
+	width: 480px;
+	padding:20px;
+	float:left;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 11px;
+	color: #6F6C64;
+}
+
+#contentbody{
+	float:right;
+	width:538px;
+}
+#contentrightbox
+{
+	float:left;
+	width: 470px;
+	padding: 15px 0px;
+	background-attachment: scroll;
+	background-image: url(../safechoice-images/background-content-box-top.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#contentrightbox h2
+{
+	font-size:95%;
+	color:#333333;
+}
+
+#form-top
+{
+	width: 446px;
+	float:left;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#6F6C64;
+	text-align:right;
+
+}
+#form-top1
+{
+	width: 420px;
+	float:right;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#6F6C64;
+	text-align:right;
+
+}
+#footer 	
+	{
+	width: 772px;
+	float: left;
+	color: #999999;
+	background: #FFFFFF url(../wyzeup_images/footer-bg.jpg) no-repeat;
+	background-attachment: scroll;
+	background-position:center;
+	height: 54px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px auto 0px;
+	padding: 15px 8px 10px 0px;
+	}
+
+#footer a{
+	color: #999999;
+	text-decoration:none;	
+	}
+#footer a:hover{
+	text-decoration:underline;	
+	color: #555555;	
+	}
+	
+#footerboxleft
+{
+	width:758px;
+	padding: 0px 0px 0px 6px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 10px;
+	line-height: 14px;
+	color: #555555;
+	text-decoration: none;
+
+}
+#footerboxright
+{
+	padding: 0px 0px 0px 6px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif, "Arial Narrow";
+	font-size: 10px;
+	line-height: 16px;
+	color: #555555;
+	text-decoration: none;
+	width:300px;
+	float:right;
+}
+
+#content_txt
+{
+	width: 340px;
+	margin: 0px;
+	padding: 15px 0px 0px 15px;
+	float: left;
+	position: relative;
+	font-family: "Trebuchet MS", Verdana, Arial;
+	font-size: 11px;
+	text-decoration: none;
+	color: #6c6c6c;
+	text-align:left;
+	}
+
+ul.txtlink-sub1	{
+	list-style:none;
+	margin:0;
+	padding:0px 0px 0px 8px;;
+	}
+	
+	
+ul.txtlink-sub1 li{
+	margin:0;
+	padding: 3px 0px 0px 20px;
+	background-image:url(../wyzeup_images/bullet-box.gif);
+	background-repeat:no-repeat;
+	background-position:left 6px;
+	color:#17abb9;
+	line-height:16px;
+	font-weight:bold;
+	}
+
+ul.txtlink-sub2	{
+	list-style:none;
+	margin:0;
+	padding:0px 0px 0px 8px;;
+	font-size:75%;
+	}
+	
+	
+ul.txtlink-sub2 li{
+	margin:0;
+	padding: 3px 0px 0px 20px;
+	background-image:url(../wyzeup_images/bullet-box.gif);
+	background-repeat:no-repeat;
+	background-position:left 6px;
+	color:#17abb9;
+	line-height:16px;
+	font-weight:bold;
+	}
+	
+/* 	===================================================================================================
+												Menu
+===================================================================================================  */
+/*
+#menu{
+	left:0;
+	text-align:center;
+	width:546px;
+	height:48px;
+	border:0;
+	padding: 0px 2px 0px 2px;
+	margin: 0px;
+}
+#menu ul{
+	position: relative;
+	width:542px;
+	height:49px;
+	background: url(../wyzeup_images/background-menu.jpg);
+	margin: 0px;
+	padding: 0;
+}
+
+#menu ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top:0;
+}
+
+#menu ul li, #menu a{
+	display:block;
+	height:49px;
+	border-bottom:0;
+}
+
+#menu ul li a{
+	text-indent:-9999px;
+	text-decoration:none;
+}
+
+#m1{
+	left:0; top:0; width:72px;
+}
+#m2{
+	left:72px; top:0; width:80px;
+}
+#m3{
+	left:152px; top:0; width:100px;
+}
+#m4{
+	left:252px; top:0; width:127px;
+}
+#m5{
+	left:379px; top:0; width:80px;
+}
+#m6{
+	left:459px; top:0; width:78px;
+}
+
+#m1 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) 0 -98px no-repeat; border-bottom:0;
+}
+#m2 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -72px -98px no-repeat; border-bottom:0;
+}
+#m3 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -152px -98px no-repeat; border-bottom:0;
+}
+#m4 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -252px -98px no-repeat; border-bottom:0;
+}
+#m5 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -379px -98px no-repeat; border-bottom:0;
+}
+#m6 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -459px -98px no-repeat; border-bottom:0;
+}
+
+*/
+
+#menu{
+	left:0;
+	text-align:center;
+	width:542px;
+	height:49px;
+	border:0;
+	padding: 0px 2px 0px 2px;
+	margin: 0px;
+}
+#menu ul{
+	position: relative;
+	width:542px;
+	height:49px;
+	background:url(../wyzeup_images/background-menu.jpg);
+	margin: 0px;
+	padding: 0;
+}
+
+#menu ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top:0;
+}
+
+#menu ul li, #menu a{
+	display:block;
+	height:49px;
+	border-bottom:0;
+}
+
+#menu ul li a{
+	text-indent:-9999px;
+	text-decoration:none;
+}
+
+#m1{
+	left:0; top:0; width:69px;
+}
+#m2{
+	left:69px; top:0; width:75px;
+}
+#m3{
+	left:144px; top:0; width:88px;
+}
+#m4{
+	left:232px; top:0; width:123px;
+}
+#m5{
+	left:355px; top:0; width:67px;
+}
+#m6{
+	left:422px; top:0; width:120px;
+}
+
+#m1 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) 0 -49px no-repeat; border-bottom:0;
+}
+#m2 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -69px -49px no-repeat; border-bottom:0;
+}
+#m3 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -144px -49px no-repeat; border-bottom:0;
+}
+#m4 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -232px -49px no-repeat; border-bottom:0;
+}
+#m5 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -355px -49px no-repeat; border-bottom:0;
+}
+#m6 a:hover {
+	background: transparent url(../wyzeup_images/background-menu.jpg) -422px -49px no-repeat; border-bottom:0;
+}
+
+
+
+#formlayerinner	{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+}
+#formlayerinner fieldset,  #formlayerinner form
+{
+margin:0;padding:0;border:0;
+}
+
+#formlayerinner label{
+	display:block;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 0px;
+}
+
+#formlayerinner input, 
+#formlayerinner select, 
+#formlayerinner textarea
+{
+	width:125px;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #CCCCCC;
+	color: #6F6C64;
+	text-decoration: none;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/background-txtbox.jpg);
+	background-repeat: repeat-x;
+	padding: 0px;
+	line-height: 14px;
+	margin: 0px;
+}
+
+#formlayerinner input
+{
+	height: 16px;
+}
+
+#formlayerinner textarea
+{
+	height: 55px;
+}
+
+.formbut
+{
+	font: bold 14px Arial, Helvetica, sans-serif;
+	background:#BD6504 url(../wyzeup_images/button_submit.jpg) no-repeat scroll left;
+	color:#6F6C64;
+	text-transform: uppercase;
+	height: 33px;
+	width: 238px;
+	text-decoration: none;
+	cursor:default;
+}
+
+#formlayerapplication	{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+}
+
+
+#formlayerapplication fieldset,  #formlayerapplication form
+{
+margin:0;padding:0;border:0;
+}
+
+#formlayerapplication label{
+	display:block;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+#formlayerapplication input, 
+#formlayerapplication select, 
+#formlayerapplication textarea
+{
+	width:200px;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:1px solid #CCCCCC;
+	color: #6F6C64;
+	text-decoration: none;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/background-txtbox.jpg);
+	background-repeat: repeat-x;
+	padding: 0px;
+	line-height: 15px;
+	margin: 0px;
+}
+
+#formlayerapplication input
+{
+	height: 16px;
+}
+
+#formlayerapplication textarea
+{
+	height: 75px;
+	width: 350px;
+}
+#formlayermyaccount	{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+}
+#formlayermyaccount fieldset,  #formlayermyaccount form
+{
+margin:0;padding:0;border:0;
+}
+
+#formlayermyaccount label{
+	display:block;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+#formlayermyaccount input, 
+#formlayermyaccount select, 
+#formlayermyaccount textarea
+{
+	width:200px;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:1px solid #CCCCCC;
+	color: #6F6C64;
+	text-decoration: none;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/background-txtbox.jpg);
+	background-repeat: repeat-x;
+	padding: 0px;
+	line-height: 15px;
+	margin: 0px;
+}
+
+#formlayermyaccount input
+{
+	height: 16px;
+}
+
+#formlayermyaccount textarea
+{
+	height: 75px;
+	width: 350px;
+}
+//
+#formlayerpassword	{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+}
+#formlayerpassword fieldset,  #formlayerpassword form
+{
+margin:0;padding:0;border:0;
+}
+
+#formlayerpassword label{
+	display:block;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+#formlayerpassword input, 
+#formlayerpassword select, 
+#formlayerpassword textarea
+{
+	width:200px;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:1px solid #CCCCCC;
+	color: #6F6C64;
+	text-decoration: none;
+	background-attachment: scroll;
+	background-image: url(../wyzeup_images/background-txtbox.jpg);
+	background-repeat: repeat-x;
+	padding: 0px;
+	line-height: 15px;
+	margin: 0px;
+}
+
+#formlayerpassword input
+{
+	height: 16px;
+}
+
+#formlayerpassword textarea
+{
+	height: 75px;
+	width: 350px;
+}
+
+.style2 {
+	color: #16f6c64;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Verdana, Arial;
+}
+.style3 {
+	color: #16f6c64;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Verdana, Arial;
+}
+.style5 {
+	font-size: 13px;
+	color: #6c6c6c;
+}
+
+.title
+{
+	font-size:11px;
+	font-weight:bold;
+	color:#378490;
+}
+.title1
+{
+	font-size:11px;
+	font-weight:bold;
+	color:#C89100;
+}

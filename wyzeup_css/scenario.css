@@ -1,0 +1,322 @@
+body{
+margin:0px;
+}
+
+#main {
+	width: 750px;
+	height:490px;
+	margin:0px;
+	padding:0px;
+}
+
+#scenario_top{
+	background:url(../wyzeup_images/img-scenario-top.jpg);
+	width:750px;
+	height:62px;
+	margin:0px auto 0px;
+}
+
+#scenario_list{
+	height:62px;
+	position:relative;
+	top:37px;
+	left:280px;
+	width:300px;
+	margin:0px auto 0px;
+	float:left;
+}
+
+
+#scenario_list select
+{
+	width:220px;
+}
+#content{
+	float:left;
+	width:800px;
+	height:359px;
+}
+
+#content_left{
+	float:left;
+	background:url(../wyzeup_images/img-scenario-left.jpg);
+	width:104px;
+	height:100%;
+
+}
+
+#content_center{
+	float:left;
+	background:#46C3FD url(../wyzeup_images/img-content-bg.jpg);
+	width:479px;
+	height:100%;
+
+}
+#content_center1{
+	float:left;
+	width:421px;
+	height:100%;
+	padding:4px;
+}
+#content_center11  {
+	/* font-family: Geneva, Arial, Helvetica, sans-serif; /*Arial, Garamond, Verdana;verdana, Arial, Helvetica, sans-serif;*/ 
+	font-size: 20px;
+	font-family:"Comic Sans"
+	color: #000000;
+	padding-top:75px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:75px;
+	text-decoration: none;
+	font-stretch:normal;
+	text-align:center;
+}
+#loading{
+	float:left;
+	width:421px;
+	height:100%;
+	padding-top:150px;
+	padding-left:200px;
+	padding-right:150px;
+	padding-bottom:50px;
+	background-color:#46C3FD;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ 
+#content_center h1 {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+#content_center p{
+	font-family: verdana,Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+
+#content_center2{
+	float:right;
+	width:46px;
+	margin:8px 0px 0px 0px;
+}
+
+#content_right{
+	float:left;
+	background:url(../wyzeup_images/img-scenario-right.jpg);
+	width:167px;
+	height:100%;
+
+}
+
+#scenario_bottom{
+	float:left;
+	background:url(../wyzeup_images/img-scenario-bottom.jpg);
+	width:750px;
+	height:69px;
+	margin:0px auto 0px;
+}
+
+
+#display{
+	float:left;
+	width:110px;
+	height:40px;
+	margin:0px auto 0px;
+	font-family: verdana,Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF5C03;
+	text-decoration: none;
+	text-align:center;
+}
+
+#demo_content, #demo_explanation
+{
+	font-family:"Comic Sans MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+#demo_title
+{
+	font-family:"Comic Sans MS", Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+}
+/* 	===================================================================================================
+												Main menu
+===================================================================================================  */
+#mainmenu
+{
+position:relative;
+	left:286px;
+	text-align:left;
+	width:139px;
+	height:46px;
+	border:0px;
+	padding:0px;
+	margin:6px 0px 0px 0px;
+	float: left;
+
+}
+#mainmenu ul
+{
+	position: relative;
+	width:139px;
+	height:46px;
+	background: url(../wyzeup_images/but-next-menu.gif);
+	margin: 0;
+	padding: 0;
+}
+
+#mainmenu ul li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top:0;
+}
+
+#mainmenu ul li, #mainmenu a
+{
+	display:block;
+	height:46px;
+	border-bottom:0;
+}
+
+#mainmenu ul li a
+{
+	text-indent:-9999px;
+	text-decoration:none;
+	padding: 0px;
+}
+
+#mm2
+{
+	left:0px; top:0; width:139px;
+}
+#mm1
+{
+	left:145px; top:0; width:145px;
+}
+
+
+#mm2 a:hover 
+{
+	background: transparent url(../wyzeup_images/but-next-menu.gif) 0 -46px no-repeat; border-bottom:0;
+}
+#mm1 a:hover 
+{
+	background: transparent url(../wyzeup_images/but-next-menu.gif) -145px -46px no-repeat; border-bottom:0;
+}
+/* 	===================================================================================================
+												Submenu
+===================================================================================================  */
+
+#scroll{
+	float:left;
+	position:relative;
+	top:40px;
+	left:0px;
+	margin:0px auto 0px;
+	padding:2px;
+	width:120px;
+}
+
+#text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align:center;
+}
+
+/* 	===================================================================================================
+												Submenu
+===================================================================================================  */
+div.spanholder	{
+float:left;
+}
+
+ul.areas 	{
+	position:relative;
+	top:31px;
+	left:1px;
+	list-style:none;
+	margin:0;
+	padding:0px 0px 0px 5px;
+	}
+ul.areas li	{
+		list-style-position:outside;
+		list-style-type:none;
+		margin:0;
+		padding:0px 0px 0px 5px;
+	}
+a.fl_wyze, a.fl_unwyze{
+		display:block;
+		margin: 0px 0 0px;
+		padding:0px 0px 0px 5px;
+		text-decoration:none;
+		width:111px;
+		height:66px;
+		text-indent:-9999em;
+	}
+
+a.fl_wyze{background: url(../wyzeup_images/but-wyze-on.jpg) no-repeat top left;}
+a.fl_unwyze{background: url(../wyzeup_images/but-unwyze-on.jpg) no-repeat top left;}
+
+
+a.fl_wyze:hover{background: url(../wyzeup_images/but-wyze-over.jpg) no-repeat top left;}
+a.fl_unwyze:hover{background: url(../wyzeup_images/but-unwyze-over.jpg) no-repeat top left;}
+
+/*********************************************************************
+								Scroll
+*********************************************************************/
+
+a.fl_up, a.fl_down{
+		display:block;
+		margin: 0px auto 0px;
+		padding: 0;
+		text-decoration:none;
+		width: 26px;
+		height:20px;
+		text-indent:-9999em;
+}
+
+a.fl_up{
+	background: url(../wyzeup_images/scroll-up.jpg) no-repeat left bottom;
+	padding:5px;
+}
+a.fl_down{
+	background: url(../wyzeup_images/scroll-down.jpg) no-repeat left bottom;
+	padding:5px;
+}
+a.fl_up:hover{background: url(../wyzeup_images/scroll-up-over.jpg) no-repeat left bottom;}
+a.fl_down:hover{background: url(../wyzeup_images/scroll-down-over.jpg) no-repeat left bottom;}
+
+ul.areas 	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:120px;
+	}
+	
+ul.areas li	{
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0px 0;
+	}
+
+#content_body {
+	Z-INDEX: 2; OVERFLOW: hidden; WIDTH: 480px; CLIP: rect(0px 480px 650px 0px); POSITION: absolute; HEIGHT: 350px
+}
+
+#content_center1 {
+	Z-INDEX: 1; LEFT: 0px; POSITION: absolute; TOP: 0px;
+}
