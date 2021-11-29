@@ -15,10 +15,10 @@ if(!empty($_POST["txtusername"]) && !empty($_POST["txtpassword"])){
 	$password=$_POST["memberpassword"];
 }
 
-session_register("session_schoolid");
-session_register("session_schoolemail");
-session_register("session_schoolname");
-session_register("session_schoolpass"); 
+#session_register("session_schoolid");
+#session_register("session_schoolemail");
+#session_register("session_schoolname");
+#session_register("session_schoolpass"); 
 
 
 $school      =  $school_dao -> School_Search_Single_Record($username,$password);

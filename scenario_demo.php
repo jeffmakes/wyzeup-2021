@@ -3,7 +3,7 @@
 	require_once('conf/conf.inc.php');
 	
 	# To register session for Question ids
-	session_register("session_questionids");
+	#session_register("session_questionids");
 	
 	# To Initailize the dbclass
 	$db 	  = new dbclass1();
