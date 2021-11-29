@@ -18,6 +18,8 @@ class dbclass1
 	var $conn;
  	/** @var resource Holds the record set object. */			
 	var $result;
+	/** @var resource Holds the mysql-php connection. */
+	var $sql;
 	/**
 	* Constructor method for this class. 
 	* This method is acutomcatically called on initialization of the class .
@@ -63,32 +65,32 @@ function dbclass1() {
  * @desc wrapper function for mysql_query
 */
 function db_return($query){
-	return mysql_query($query);
+	return mysqli_query($con, $query);
 }
 /**
  * @return number of rows
  * @param  db_object
 */
 function db_return_count($query_return){
-	return mysql_num_rows($query_return);
+	return mysqli_num_rows($query_return);
 }
 /**
  * @return insert id
  * @ desc returns the ID of last insertion
 */
 function db_return_new_id(){
-	return mysql_insert_id();	
+	return mysqli_insert_id($con);	
 }
 /**
  * @return number of affected rows 
   * desc returns the number of affected rows as a result of any updation
 */
 function db_return_affected_rows(){
- 	return mysql_affected_rows();
+ 	return mysqli_affected_rows($con);
 }
 
 function db_error() {
-	return mysql_error();
+	return mysqli_error($con);
 }
 
 /**
@@ -97,7 +99,7 @@ function db_error() {
  * @desc wrapper function for mysql_fetch_object
 */
 function db_return_object($query_return){
-	return mysql_fetch_object($query_return);
+	return mysqli_fetch_object($query_return);
 }
 /**
  * @return db_array
@@ -105,7 +107,7 @@ function db_return_object($query_return){
  * @desc wrapper function for mysql_fetch_array
 */
 function db_return_array($query_return){
-	return mysql_fetch_array($query_return);
+	return mysqli_fetch_array($query_return);
 }
 /**
  * @return db_object
