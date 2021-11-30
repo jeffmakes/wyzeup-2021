@@ -425,16 +425,11 @@ class SchoolDAO {
 		/*$stored_value  = get_name(TABLE_SCHOOL, $searchstring1, 'school_password',  'school_email');
 		$searchstring2 = pw_check($searchstring2,$stored_value);*/
 			
-		$query_select = "SELECT school_id,school_name,school_password,school_contactname,school_contactperson_position,
-								school_startdate,school_enddate,school_expirydate,school_address1,school_address2,school_city,
-								school_country,	school_zipcode,school_email,school_invoice_to,school_proforma_invoice,school_phone,school_status						
-						 FROM ".TABLE_SCHOOL."
-						 WHERE  school_status = 1 AND school_expirydate >= CURDATE() AND school_email  LIKE BINARY  '".$searchstring1."' AND
-						        school_password  LIKE BINARY  '".$searchstring2."' AND school_isdeleted = 0";
-		
+		#$query_select = "SELECT school_id,school_name,school_password,school_contactname,school_contactperson_position,	school_startdate,school_enddate,school_expirydate,school_address1,school_address2,school_city, school_country,	school_zipcode,school_email,school_invoice_to,school_proforma_invoice,school_phone,school_status FROM ".TABLE_SCHOOL." WHERE  school_status = 1 AND school_expirydate >= CURDATE() AND school_email  LIKE BINARY  '".$searchstring1."' AND school_password  LIKE BINARY  '".$searchstring2."' AND school_isdeleted = 0";
+		$query_select = "SELECT school_id,school_name,school_password,school_contactname,school_contactperson_position,	school_startdate,school_enddate,school_expirydate,school_address1,school_address2,school_city, school_country,	school_zipcode,school_email,school_invoice_to,school_proforma_invoice,school_phone,school_status FROM ".TABLE_SCHOOL." WHERE  school_status = 1 AND school_email  LIKE BINARY  '".$searchstring1."' AND school_password  LIKE BINARY  '".$searchstring2."' AND school_isdeleted = 0";	
 		$query_result 	= db_execute_query($query_select);
 		$query_count 	= db_return_count($query_result);
-		if ($query_count == 0) { return null; }
+		if ($query_count == 0) {printf("jeff: search returning null\n"); return null; }
 		
 		$school 		= new SchoolDO();
 		$data       	=  db_return_object($query_result);  
