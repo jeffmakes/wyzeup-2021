@@ -13,7 +13,7 @@
 	if($scenario_id){
 		$sql = "SELECT question_id,scenario_fk_id,question_name,question_option1,question_option2,question_option3,question_option4,question_answer,question_image,question_rank,question_status FROM wyzeup_questionsdemo WHERE scenario_fk_id = ".$scenario_id." AND question_status = 1 AND  question_isdeleted=0 ORDER BY question_rank"; 
 		$query_result 	   = db_execute_query($sql);
-			while($row = mysql_fetch_array($query_result)){ 
+			while($row = mysqli_fetch_array($query_result)){ 
 				  $arr_id[] = $row['question_id'];
 				  $scenario_id = $row['scenario_fk_id'];
 			  }
@@ -272,9 +272,10 @@ function NextContent(order){
    <select name="scenario_id" id="scenario_id" onChange="javascript : Select_Scenario();">
      <option value="" selected="selected">Select Scenario</option>
               <?php
+			global $con;
 			$scenario_select="select scenario_id, scenario_name from wyzeup_scenariosdemo WHERE scenario_status = 1 AND scenario_isdeleted=0";
-			$scenario_result = mysql_query($scenario_select);
-			while ($scenario_row=mysql_fetch_array($scenario_result)){
+			$scenario_result = mysqli_query($con, $scenario_select);
+			while ($scenario_row=mysqli_fetch_array($scenario_result)){
 				if ($scenario_row["scenario_id"]<>$scenario_id)
 					echo '<option value="' . $scenario_row["scenario_id"].'">' . $scenario_row["scenario_name"].'</option>';
 				else
