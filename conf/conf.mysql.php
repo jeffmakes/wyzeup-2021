@@ -1,4 +1,6 @@
 <?php
+require_once('conf/conf.inc.php');
+##
 /**
  * @ DATABASE Connectivity
  */
@@ -18,8 +20,6 @@ class dbclass1
 	var $conn;
  	/** @var resource Holds the record set object. */			
 	var $result;
-	/** @var resource Holds the mysql-php connection. */
-	var $sql;
 	/**
 	* Constructor method for this class. 
 	* This method is acutomcatically called on initialization of the class .
@@ -28,31 +28,33 @@ class dbclass1
 	*/
 
 function dbclass1() {
+		printf("jeff: dbclass1 init called\n");
 		$this->host		= DB_URL;
 		$this->port 	= DB_PORT;
 		$this->dbname 	= DB_NAME;
 		$this->user 	= DB_USERNAME;
 		$this->passwd 	= DB_PASSWORD;
-		$this->conn 	= mysql_connect($this->host, $this->user, $this->passwd) or die(" Unable to make Database Connection");		
-		mysql_select_db($this->dbname);
+		$this->conn 	= mysqli_connect($this->host, $this->user, $this->passwd) or die(" Unable to make Database Connection");		
+		mysqli_select_db($this->conn, $this->dbname);
         //register_shutdown_function($this->close);		//call back function to close connection		
 		$this->result="";
+		printf("jeff: dbclass1 after select");
 	}
  function query($query) {
-       $this->result = mysql_query($query);
+       $this->result = mysqli_query($this->conn, $query);
        return $this->result;
    }
   function insert_id(){
-		return mysql_insert_id();	
+		return mysqli_insert_id($this->conn);	
 	}
 	function num_rows($rs) {
        //$rowcount = mysql_num_rows($this->result);
-	   $rowcount = mysql_num_rows($rs);
+	   $rowcount = mysqli_num_rows($rs);
        return $rowcount;
    }   
     function fetch_array($rs) {
        //$row = mysql_fetch_array($this->result);
-	   $row = mysql_fetch_array($rs);
+	   $row = mysqli_fetch_array($rs);
        return $row;
    } 
 }
@@ -65,6 +67,7 @@ function dbclass1() {
  * @desc wrapper function for mysql_query
 */
 function db_return($query){
+	global $con;
 	return mysqli_query($con, $query);
 }
 /**
@@ -79,6 +82,7 @@ function db_return_count($query_return){
  * @ desc returns the ID of last insertion
 */
 function db_return_new_id(){
+	global $con;
 	return mysqli_insert_id($con);	
 }
 /**
@@ -86,10 +90,12 @@ function db_return_new_id(){
   * desc returns the number of affected rows as a result of any updation
 */
 function db_return_affected_rows(){
+	global $con;
  	return mysqli_affected_rows($con);
 }
 
 function db_error() {
+	global $con;
 	return mysqli_error($con);
 }
 
