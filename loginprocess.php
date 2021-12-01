@@ -6,6 +6,8 @@ require_once('dao/school_dao.php');
 #Object Instantiation for Scenario typeDAO
 $school			  =  new SchoolDO();
 $school_dao       =  new SchoolDAO(); 
+printf("YEEEEAH");
+#print_r($GLOBALS);
 
 if(!empty($_POST["txtusername"]) && !empty($_POST["txtpassword"])){	
 	$username=$_POST["txtusername"];
@@ -22,12 +24,14 @@ if(!empty($_POST["txtusername"]) && !empty($_POST["txtpassword"])){
 
 
 $school      =  $school_dao -> School_Search_Single_Record($username,$password);
+printf("jeff: after school_dao\n");
 
 if($school == NULL) {
   	  html_refresh("login.php?status=invalid");
+	  printf("jeff: NULL");
 } else {
 		session_register_school();
-	
+		printf("jeff: after session_registeR_school");		
  		$schoolid 						   = $school -> school_id;
 		$school_name 			  		   = $school -> school_name;
 		$school_email 			  		   = $school -> school_email;
