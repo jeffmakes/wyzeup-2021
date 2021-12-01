@@ -4,4 +4,4 @@ Clone this into the root directory of a http server instance with PHP running an
 
 Currently the main page loads, including all images and CSS, and the "Free Demo" button launches the "Game" itself in a new window. The game pulls in data from the database, allowing you to select and begin two different scenarios. At the time of writing, clicking on any of the buttons doesn't do anything, so you can't get past the first screen. Critically the Wyze/Unwyze buttons are broken.	
 
-At present, the app is hosted on gordon, my DreamHost instance, in the /home/dh_spdipt/wyzeup.dreamhosters.com folder.
+At present, the app is hosted on gordon, my DreamHost instance, in the /home/dh_spdipt/wyzeup.dreamhosters.com folder and is accessable here: [https://wyzeup.dreamhosters.com/](https://wyzeup.dreamhosters.com/)
