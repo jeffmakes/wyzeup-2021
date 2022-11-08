@@ -58,6 +58,8 @@ function Wyze_Answer(data){
 	var currentid = parseInt(document.getElementById("currentid").value);
 	var dispid 	  = parseInt(document.getElementById("displayid").value);
 	var flag 	  = parseInt(document.getElementById("flag").value);
+    console.log("Answer button clicked");
+    console.log("currentid " + currentid + " displayid " + dispid + " flag " + flag);
 	if(document.getElementById("nextid").value < 4) {
 		if(data == "Wyze"){		
 			var url_w = "scenario_score_demo.php?answer="+data+"&questid="+currentid+"&displayid="+dispid+"&fg="+flag;
@@ -66,7 +68,6 @@ function Wyze_Answer(data){
 			var url_w = "scenario_score_demo.php?answer="+data+"&questid="+currentid+"&displayid="+dispid+"&fg="+flag;		
 			var value  = 1;
 		}
-		
 		if(value == 1){ 
 			var xmlhttp = false;
 			if (window.XMLHttpRequest) {
@@ -85,7 +86,7 @@ function Wyze_Answer(data){
 							*/	
 							document.getElementById("content_center2").style.display 	  = '';	
 							document.getElementById("demo_loaderimage").style.display	  = '';		
-							var response 	 = xmlhttp.responseText.split("@##@");	
+                            var response     = xmlhttp.responseText.split("@##@"); 
 							document.getElementById("display").style.display = '';
 							//alert(response);
 							if(response!=""){
