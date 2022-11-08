@@ -28,7 +28,6 @@ class dbclass1
 	*/
 
 function dbclass1() {
-		printf("jeff: dbclass1 init called\n");
 		$this->host		= DB_URL;
 		$this->port 	= DB_PORT;
 		$this->dbname 	= DB_NAME;
@@ -38,7 +37,6 @@ function dbclass1() {
 		mysqli_select_db($this->conn, $this->dbname);
         //register_shutdown_function($this->close);		//call back function to close connection		
 		$this->result="";
-		printf("jeff: dbclass1 after select");
 	}
  function query($query) {
        $this->result = mysqli_query($this->conn, $query);
