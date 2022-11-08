@@ -13,13 +13,14 @@ require_once('conf/conf.inc.php');
 $i=$_GET['id'];
 $anser_id = $_GET['ansid'];
 $questionids    =  explode(",",$_SESSION["session_questionids"]);
+global $con;
 
 if($i<4){
 	if($questionids[$i] != ''){
 		$sql = "SELECT scenario_id,question_id,scenario_name,question_name,question_answer,question_image FROM wyzeup_scenariosdemo,wyzeup_questionsdemo WHERE scenario_id = scenario_fk_id AND question_id = $questionids[$i]";
-		$res = mysql_query($sql);
-		if(mysql_num_rows($res)){
-			$row = mysql_fetch_array($res);
+		$res = mysqli_query($con, $sql);
+		if(mysqli_num_rows($res)){
+			$row = mysqli_fetch_array($res);
 			/*$desc		 = $row["question_name"];
 			$desc = preg_replace('/</',' <',$desc);
 			$desc = preg_replace('/>/','> ',$desc);
@@ -34,8 +35,8 @@ if($i<4){
 }
  if($_GET['sid']){
 	$sqlqry = "SELECT  scenario_name ,scenario_desc  FROM wyzeup_scenariosdemo WHERE scenario_id =".$_GET['sid'];
-	$result = mysql_query($sqlqry);
-	$row_scene 	=  mysql_fetch_array($result);		
+	$result = mysqli_query($con, $sqlqry);
+	$row_scene 	=  mysqli_fetch_array($result);		
 	$description = stripslashes(str_replace(chr(13),"<br />",$row_scene["scenario_desc"]));
 	echo  $row_scene["scenario_name"]."@##@".'<b>Explanation<b>'."@##@".$description."@##@".''."@##@".'4';
 }
